@@ -1,0 +1,14 @@
+{
+	"name": "string2date",
+	"description": "Parse string into date",
+	"author": {
+		"name": "Evgeniy Vetsel",
+		"nickname": "imater"
+	},
+	"version": "1.0.0",
+	"main": "index.js",
+	"dependencies": {
+		
+	},
+	"private": false
+}
