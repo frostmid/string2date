@@ -344,5 +344,7 @@ function parseString (title) {
 	};
 }
 
-module.exports = parseString;
+module.exports = function (string) {
+	return parseString (string);
+};
 
