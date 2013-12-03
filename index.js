@@ -338,8 +338,5 @@ module.exports = function (title) {
 
 	if ((answer == "") && (mytime == "")) mydate = "";
 
-	return {
-		title: answer + " " + add,
-		date: mydate
-	};
+	return mydate;
 }
