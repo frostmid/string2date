@@ -1,6 +1,6 @@
 // author: http://habrahabr.ru/post/204628/
 
-function parseString (title) {
+module.exports = function (title) {
 	title = title.toLowerCase()
 		.replace(/одиннадцать/g, "11##")
 		.replace(/двенадцать/g, "12##")
@@ -343,8 +343,3 @@ function parseString (title) {
 		date: mydate
 	};
 }
-
-module.exports = function (string) {
-	return parseString (string);
-};
-
